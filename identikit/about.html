@@ -1,124 +1,199 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobbies e intereses</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí</title>
 
+  <style>
+    body {
+      margin: 0;
+      background-color: #55355a;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #e9eaec;
+    }
+
+    .contenedor {
+      width: 85%;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+
+    .encabezado {
+      color: #e9eaec;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .linea {
+      border-top: 2px solid #fad02c;
+      margin: 10px 0 40px 0;
+    }
+
+    .seccion {
+      width: 100%;
+      overflow: hidden;
+      margin-top: 40px;
+    }
+
+    .columna-imagen {
+      width: 45%;
+      float: left;
+      background-color: #CC5DE85C;
+      padding: 35px;
+      box-sizing: border-box;
+    }
+
+    .columna-imagen img {
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .columna-texto {
+      width: 48%;
+      float: right;
+      padding-top: 40px;
+    }
+
+    .titulo-seccion {
+      font-size: 44px;
+      color: #fad02c;
+      margin: 0 0 40px 0;
+      text-align: center;
+    }
+
+    .bloque {
+      border-top: 2px solid #e9eaec;
+      padding: 18px 0;
+      text-align: center;
+    }
+
+    .bloque h2 {
+      margin: 0 0 10px 0;
+      font-size: 24px;
+      color: #e9eceb;
+      font-weight: normal;
+    }
+
+    .bloque p {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.7;
+      color: #e9eaec;
+      text-align: left;
+    }
+
+    .linea-final {
+      border-top: 2px solid #fad02c;
+      margin-top: 50px;
+      clear: both;
+    }
+
+    .volver {
+      margin-top: 25px;
+    }
+
+    .volver a {
+      color: #fad02c;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    @media screen and (max-width: 900px) {
+      .columna-imagen,
+      .columna-texto {
+        width: 100%;
+        float: none;
+      }
+
+      .columna-imagen {
+        margin-bottom: 30px;
+      }
+
+      .titulo-seccion {
+        font-size: 34px;
+      }
+
+      .bloque h2 {
+        font-size: 22px;
+      }
+
+      .bloque p {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
 <body>
 
-    <center>
+  <div class="contenedor">
 
-        <h1>Hobbies e intereses</h1>
+    <div class="encabezado">
+      Conoceme más
+    </div>
 
-        <hr width="60%">
+    <div class="linea"></div>
 
+    <div class="seccion">
 
-        <h2>Naturaleza</h2>
+      <div class="columna-imagen">
+        <img src="images/hobbies_gustos_personales.png" alt="Imagen representativa sobre mis intereses">
+      </div>
 
-        <img src="images/trekking.jpg" alt="foto de trekking" width="300">
+      <div class="columna-texto">
+        <h1 class="titulo-seccion">Sobre mí</h1>
 
-        <p>
-        Disfruto del contacto con la naturaleza, especialmente la montaña y los ríos.
-        Me gusta practicar trekking y kayak.
-        </p>
+        <div class="bloque">
+          <h2>Naturaleza y aventura</h2>
+          <p>
+            Más allá de mi perfil profesional en el ámbito de la tecnología,
+            tengo una amplia variedad de intereses personales que forman parte de quién soy.
+            Disfruto profundamente del contacto con la naturaleza, especialmente en la montaña
+            y los ríos, donde actividades como el trekking y el kayak me permiten encontrar
+            equilibrio y tranquilidad.
+          </p>
+        </div>
 
-        <p>
-        <a href="https://es.wikiloc.com/" target="_blank">
-        Explorar rutas de trekking
-        </a>
-        </p>
+        <div class="bloque">
+          <h2>Cultura y entretenimiento</h2>
+          <p>
+            También me interesan distintas formas de cultura y entretenimiento,
+            como los boardgames, los juegos de rol y las historias presentes en el anime,
+            el manga y los manhwas, que estimulan la imaginación y el pensamiento estratégico.
+          </p>
+        </div>
 
-        <hr width="60%">
+        <div class="bloque">
+          <h2>Curiosidad intelectual</h2>
+          <p>
+            Entre mis otras pasiones se encuentran el mundo del té, la historia y la teología,
+            áreas que despiertan mi curiosidad intelectual y mi interés por comprender
+            diferentes tradiciones y perspectivas del mundo.
+          </p>
+        </div>
 
+        <div class="bloque">
+          <h2>Identidad personal</h2>
+          <p>
+            Estos intereses, junto con mi dimensión espiritual, forman una parte importante
+            de mi identidad personal. Son aspectos que enriquecen mi mirada, mi sensibilidad
+            y mi forma de conectar con los demás y con el mundo.
+          </p>
+        </div>
+      </div>
 
-        <h2>Animales</h2>
+    </div>
 
-        <img src="images/gatos.jpg" alt="foto de mis gatos" width="300">
-        <img src="images/perros.jpg" alt="foto de mis perros" width="300">
+    <div class="linea-final"></div>
 
-        <p>
-        Soy amante de los animales y disfruto mucho compartir tiempo con ellos.
-        </p>
+    <div class="volver">
+      <a href="index.html">← Volver a la página principal</a>
+    </div>
 
-        <hr width="60%">
-
-
-        <h2>Boardgames</h2>
-
-        <img src="images/juego.jpg" alt="Boardgames" width="300">
-
-        <p>
-        Me gustan los boardgames, especialmente los eurogames y los juegos de rol.
-        </p>
-
-        <p>
-        <a href="https://boardgamegeek.com" target="_blank">
-        BoardGameGeek
-        </a>
-        </p>
-
-        <hr width="60%">
-
-
-        <h2>Anime y Manga</h2>
-
-        <img src="images/manhwa.jpg" alt="Anime y manga" width="300">
-
-        <p>
-        Disfruto del anime, manga y manhwas.
-        </p>
-
-        <p>
-        <a href="https://myanimelist.net" target="_blank">
-        MyAnimeList
-        </a>
-        </p>
-
-        <hr width="60%">
-
-
-        <h2>Mundo del té</h2>
-
-        <img src="images/te.jpg" alt="Té" width="300">
-
-        <p>
-        Me apasiona el mundo del té y su cultura.
-        </p>
-
-        <p>
-        <a href="https://teapedia.org" target="_blank">
-        Aprender sobre el té
-        </a>
-        </p>
-
-        <hr width="60%">
-
-
-        <h2>Historia y teología</h2>
-
-        <img src="images/historia.jpg" alt="Historia" width="300">
-
-        <p>
-        Tengo un gran interés por la historia, la teología y la reflexión espiritual.
-        </p>
-
-        <p>
-        <a href="https://www.worldhistory.org" target="_blank">
-        Explorar historia
-        </a>
-        </p>
-
-        <hr width="60%">
-
-
-        <p>
-        <a href="index.html">Volver a la página principal</a>
-        </p>
-
-    </center>
+  </div>
 
 </body>
 </html>

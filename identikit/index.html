@@ -1,68 +1,177 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP 1: Identikit - Betsabé Rodríguez</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Presentación personal</title>
+
+<style>
+
+body {
+  margin: 0;
+  background-color: #55355a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+  width: 85%;
+  max-width: 1200px;
+  margin: 40px auto;
+  color: #e9eceb;
+}
+
+.encabezado {
+  color: #e9eaec;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.linea {
+  border-top: 2px solid #fad02c;
+  margin: 10px 0 40px 0;
+}
+
+.contenido {
+  width: 100%;
+  overflow: hidden;
+}
+
+.texto {
+  width: 48%;
+  float: left;
+  padding-top: 40px;
+}
+
+.imagen {
+  width: 48%;
+  float: right;
+  text-align: right;
+}
+
+.imagen img {
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 58px;
+  color: #e9eceb;
+  margin: 0 0 25px 0;
+  line-height: 1.1;
+}
+
+.frase {
+  font-size: 26px;
+  color: #e9eaec;
+  margin-bottom: 40px;
+}
+
+.texto-chico {
+  font-size: 18px;
+  color: #e9eaec;
+  line-height: 1.6;
+}
+
+.iconos {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 2px solid #fad02c;
+}
+
+.iconos a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fad02c;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.iconos img {
+  width: 60px;
+  margin-right: 12px;
+}
+
+.iconos img:hover {
+  opacity: 0.8;
+}
+
+.linea-final {
+  border-top: 2px solid #fad02c;
+  margin-top: 30px;
+  clear: both;
+}
+
+@media screen and (max-width: 900px) {
+
+  .texto,
+  .imagen {
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
+
+  .imagen {
+    margin-top: 30px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .frase {
+    font-size: 22px;
+  }
+
+}
+
+</style>
 </head>
 
 <body>
 
-    <center>
+<div class="contenedor">
 
-        <h1>Bienvenidos a mi página personal</h1>
+<div class="encabezado">
+Bienvenidos a mi página
+</div>
 
-        <hr width="60%">
+<div class="linea"></div>
 
-        <h2>Betsabé Rodríguez</h2>
+<div class="contenido">
 
-        <p><strong>Electronic Hardware Designer | Embedded Firmware Developer | IoT</strong></p>
+<div class="texto">
 
-        <img src="images/yo.jpg" alt="Foto o avatar de Betsabé" width="250">
+<h1>Soy Betsabe Ailen Rodriguez</h1>
 
-        <h3>Sobre mí</h3>
+<div class="frase">
+"Nunca doblegado, nunca roto"
+</div>
 
-        <p>
-            Soy diseñadora de hardware electrónico y desarrolladora de firmware,
-            con interés en sistemas embebidos, dispositivos IoT y soluciones
-            tecnológicas aplicadas a problemas reales.
-        </p>
+<div class="texto-chico">
+Este es mi espacio personal donde comparto un poco sobre quién soy,
+mis intereses y mi recorrido. Aquí vas a poder conocer más sobre mí
+y acceder a otra página con información más completa.
+</div>
 
-        <p>
-            Disfruto trabajar en proyectos donde la electrónica, el software
-            y la creatividad se combinan para construir soluciones funcionales
-            e innovadoras.
-        </p>
+<div class="iconos">
+<a href="about.html" title="Conocé más sobre mí">
+<img src="images/incon_enlace.png" alt="Sobre mí">
+<span>Conóceme más</span>
+</a>
+</div>
 
-        <h3>Intereses personales</h3>
+</div>
 
-        <p>🐾 Amante de los animales</p>
-        <p>⛰️ Naturaleza, trekking y kayak</p>
-        <p>🍵 Mundo del té</p>
-        <p>🎲 Boardgames, eurogames y juegos de rol</p>
-        <p>🎌 Anime, manga y manhwas</p>
-        <p>📚 Historia y teología</p>
-        <p>✨ Reflexión espiritual</p>
-        
-        <h3>Una frase que me representa</h3>
+<div class="imagen">
+<img src="images/yo.jpeg" alt="Foto de Betsabe Ailen Rodriguez">
+</div>
 
-        <blockquote>
-            "Nunca doblegado, nunca roto"
-        </blockquote>
+</div>
 
-        <h3>Explorar</h3>
+<div class="linea-final"></div>
 
-        <p>
-            <a href="perfil.html">Perfil profesional</a>
-        </p>
-
-        <p>
-            <a href="about.html">Hobbies e intereses</a>
-        </p>
-
-    </center>
+</div>
 
 </body>
-
 </html>
